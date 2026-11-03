@@ -5,6 +5,8 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
 public class JavaFXDemo extends Application {
+    public static void main(String[] args) { launch(args); }
+
     public void start(Stage st) {
         TextField t = new TextField();
         Button b = new Button("Click");
@@ -20,5 +22,4 @@ public class JavaFXDemo extends Application {
         st.setScene(new Scene(box, 300, 200));
         st.show();
     }
-    public static void main(String[] args) { launch(args); }
 }
